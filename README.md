@@ -2,7 +2,7 @@
 The Pytorch implementation is ultralytics/ultralytics
 
 # Requirements
-CUDA 11.6 \n
+CUDA 11.6 <br />
 CUDNN 8.8.x
 TensorRT 8.4
 OpenCV 4.6.0

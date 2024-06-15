@@ -1,6 +1,6 @@
 #include <fstream>
 #include "Logger.hpp"
-
+ 
 Logger serializeLogger;
 void readClassFile(const std::string& class_file, std::map<int, std::string>& labels) {
 	std::fstream file(class_file, std::ios::in);

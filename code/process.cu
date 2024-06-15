@@ -224,7 +224,7 @@ void postProcess(float* host_input, const int& buffer_size, const int& num_boxes
 
 		detections.push_back(box);
 	}
-	
+
 	free(host_output);
 	cudaFree(dev_input);
 	cudaFree(dev_output);

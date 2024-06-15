@@ -5,7 +5,7 @@
 class Calibrator : public nvinfer1::IInt8EntropyCalibrator2 {
 public:
 	Calibrator(int batchsize, int input_w, int input_h, std::string img_dir, const char* calib_table_name, bool read_cache = true);
-
+ 
 	virtual ~Calibrator();
 	int getBatchSize() const noexcept override;
 	bool getBatch(void* bindings[], const char* names[], int nbBindings) noexcept override;

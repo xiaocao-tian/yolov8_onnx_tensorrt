@@ -1,6 +1,6 @@
 # YOLOv8
-The Pytorch implementation is ultralytics/ultralytics
-https://github.com/ultralytics/ultralytics
+The Pytorch implementation is [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+
 
 # Requirements
 CUDA 11.8 <br />

@@ -1,11 +1,12 @@
 # YOLOv8
 The Pytorch implementation is ultralytics/ultralytics
+https://github.com/ultralytics/ultralytics
 
 # Requirements
 CUDA 11.8 <br />
 CUDNN 8.8.x <br />
 TensorRT 8.6 <br />
-OpenCV 4.6.0 <br />
+OpenCV 4.8.0 <br />
 
 # How to Run, yolov8s as example
 1. generate .onnx from pytorch with .pt
